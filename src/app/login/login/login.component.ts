@@ -16,6 +16,8 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    this.router.navigate(['/home/page1/tab1']);
+    this.router.navigate([
+      window.localStorage.getItem('lastRoute')
+    ]);
   }
 }
