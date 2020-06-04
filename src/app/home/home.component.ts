@@ -9,8 +9,6 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  pages: string[] = ['page1', 'page2', 'page3'];
-
   ngOnInit() {
   }
 

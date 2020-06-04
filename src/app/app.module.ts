@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MaterialModule } from './material.module';
-import { CustomRouteReuseStrategy} from './app-routing-cache';
+import { CustomRouteReuseStrategy } from './app-routing-cache';
 import { RouteReuseStrategy } from '@angular/router';
 @NgModule({
   declarations: [

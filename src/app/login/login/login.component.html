@@ -1,1 +1,18 @@
-<p>login works!</p>
+<div class="example-container">
+    <mat-card>
+        <h1>LOGIN</h1>
+        <mat-form-field appearance="fill">
+            <mat-label>Account</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <mat-select>
+                <mat-option value="option">Option</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <button mat-flat-button color="primary" (click)="login()">LOGIN</button>
+    </mat-card>
+</div>
