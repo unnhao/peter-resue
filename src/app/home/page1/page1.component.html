@@ -1,0 +1,17 @@
+<h1>Page1</h1>
+<nav mat-tab-nav-bar class="tc-tabs">
+    <a mat-tab-link [routerLink]="['./tab1']">
+    tab1
+  </a>
+    <a mat-tab-link [routerLink]="['./tab2']">
+    tab2
+  </a>
+    <a mat-tab-link [routerLink]="['./tab3']">
+    tab3
+  </a>
+</nav>
+<div class="tab-container">
+    <mat-card>
+        <router-outlet></router-outlet>
+    </mat-card>
+</div>
